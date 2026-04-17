@@ -37,6 +37,7 @@ const Navbar = () => {
             <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
             <Link to="/music" onClick={() => setIsOpen(false)}>Music</Link>
             <Link to="/about" onClick={() => setIsOpen(false)}>About</Link>
+            <Link to="/carols" onClick={() => setIsOpen(false)}>Christmas Carols</Link>
           </motion.div>
         )}
       </AnimatePresence>
